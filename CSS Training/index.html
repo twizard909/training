@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS 101</title>
+        <style>
+            body {
+                background-color: #61b7d8;
+                background-image: url('photos/small-mountains.jpg');
+                background-size: cover;
+            }
+
+            h1, p, div {
+                color: red;
+            }
+
+            h2 {
+                color: green;
+            }
+
+            p strong {
+                color: blue;
+            }
+
+            h1.small {
+                font-size: 25px;
+            }
+
+            h1#intro {
+                text-align: center;
+            }
+
+            div.red-border {
+                border-width: 5px;
+                border-style: groove;
+                border-color: deeppink;
+                /*border-radius: 50%;*/
+                border-top-left-radius: 5px;
+                border-top-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 5px;
+                width: 200px;
+                height: 200px;
+                }
+        </style>
+    </head>
+    <body>
+    	<h1 class="small">Select Me as Your H1</h1>
+        <h1 id='intro'> Hi My Name is James</h1>
+        <h2> Select Me as Your H2</h2>
+        <div> Select Me as Your DIV
+        <p>
+        <strong>Lorem ipsum dolor sit amet consectetur</strong>, adipisicing elit. Expedita minima eius eum labore temporibus assumenda rem aliquid praesentium tempore, suscipit 		molestiae illo inventore ab ipsa, omnis voluptatibus necessitatibus magni voluptatum?
+    </p>
+        <p>Lorem ipsum Aux de querelles le les sillage lâche de perdu aux sentant violets exquise lorsqu'a chantants violets cibles au libre azurs</p>
+        </div>
+        <div class="red-border">This has a Border</div>
+        <p> This is a Paragraph</p>
+        <strong>This is Bolded Test</strong>
+        This is Normal Text
+    </body>
+</html>
