@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<title>CSS 101-Box Shadow</title>
+
+<style>
+    h1, p, div {
+        color: red;
+    }
+
+    div {
+        display: inline-block;
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+    }
+    /*    div.half-width {
+            width: 50%;
+            border: 1px solid red;
+            display:block;
+        }*/
+
+    h2 {
+        color: green;
+    }
+
+    p strong {
+        color: blue;
+    }
+
+    h1.small {
+        font-size: 25px;
+    }
+
+    h1#intro {
+        text-align: center;
+    }
+
+    div.red-border {
+        border-width: 5px;
+        border-style: groove;
+        border-color: deeppink;
+        /*border-radius: 50%;*/
+        border-top-left-radius: 5px;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 5px;
+        width: 200px;
+        height: 200px;
+    }
+    #box {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        background-image: url('photos/small-mountains.jpg');
+    }
+</style>
+</head>
+<body>
+
+    <div id="box">
+
+    </div>
+    <div>
+        This is Block Element One
+    </div>
+    <div>
+        This is Block Element Two
+    </div>
+
+    <div class="half-width">This is the DIV Half Width Setting</div>
+</body>
+
+</body>
+</html>
