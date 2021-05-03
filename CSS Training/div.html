@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 101-DIV</title>
+    <style>
+        body {
+            background-color: #61b7d8;
+            background-image: url('photos/small-mountains.jpg');
+            background-size: cover;
+        }
+
+        h1, p, div {
+            color: red;
+        }
+         div {
+             display: inline-block;
+             border: 1px solid red;
+             width: 200px;
+             height: 200px;
+             
+         }
+        /*    div.half-width {
+            width: 50%;
+            border: 1px solid red;
+            display:block;
+        }*/
+            span.half-width {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+        h2 {
+            color: green;
+        }
+
+        p strong {
+            color: blue;
+        }
+
+        h1.small {
+            font-size: 25px;
+        }
+
+        h1#intro {
+            text-align: center;
+        }
+
+        div.red-border {
+            border-width: 5px;
+            border-style: groove;
+            border-color: deeppink;
+            /*border-radius: 50%;*/
+            border-top-left-radius: 5px;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 5px;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    This is Block Element One
+</div>
+<div>
+    This is Block Element Two
+</div>
+
+<div class="half-width">This is the DIV Half Width Setting</div>
+</body>
+</html>
